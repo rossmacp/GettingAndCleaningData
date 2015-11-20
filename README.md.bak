@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "run_analysis.R"
 author: "PRM"
@@ -9,55 +8,39 @@ date: "11/19/2015"
 This script requires 7 files in the working directory obtained from the resource described below.
 
 'features.txt': List of all features.
-
 'X_train.txt': Training set.
-
 'y_train.txt': Training labels.
-
-'subject_train.txt': Training data.
-
+'subject_train.txt': Training data
 'X_test.txt': Test set.
-
 'y_test.txt': Test labels.
-
-'subject_test.txt': Test data.
-
+'subject_test.txt': Test data
 
 The script does the following:
 
 Sources the dplyr package
-
 Obtains descriptive variable names from features.txt
-
 Creates names for 3 Annotation columns plus Descriptive variable names 
 
-
 Reads and combine for Training: data, Subject annotation, Activity annotation 
-
 Adds a column to annotate this is the Training set data
-
 Adds header with descriptive variable names
 
-
 Reads and combine for Test: data, Subject annotation, Activity annotation 
+Adds a column to annotate this is the Test set data
+Adds header with descriptive variable names 
 
-Adds a column to annotate this is the Test set data.
-
-Adds header with descriptive variable names.
-
-
-Rubric 1: Merges the training and test sets to create one dataset.
+Merges the training and test sets to create one dataset
   
 Removes columns 306:347 386:426 and 465:504 which duplicate variable names 
-Rubric 2: Keeps Annotation columns 1:3 and any variable columns with 'mean' or 'std' in variable name.
+Keeps Annotation columns 1:3 and any variable columns with 'mean' or 'std' in variable name.
   
-Rubric 3: Adds Descriptive activity names for the activities in the dataset.
+Adds Descriptive activity names for the activities in the dataset.
   
 Computes the averages for variables grouped according to Subject (30) and activity (6) = 180 observations.
 
-Rubric 4: Renames the variable columns to reflect that they are now the means of previous measurements.
+Renames the variable columns to reflect that they are now the means of previous measurements.
   
-Rubric 5: Creates tidy data in .txt file that can be read into R with foo <- read.table("tidydata.txt", header=TRUE)
+Creates tidy data in .txt file that can be read into R with foo <- read.table("tidydata.txt", header=TRUE)
 
 
 
@@ -100,7 +83,3 @@ This dataset is distributed AS-IS and no responsibility implied or explicit can 
 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
-=======
-# GettingAndCleaningData
-Repo for Coursera Get Clean Data Course Project
->>>>>>> 3469630e08ee5489cf2e3b6f65a152ed6919450e
