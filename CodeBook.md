@@ -16,10 +16,10 @@ Levels: Integer Range 1 to 30
 1. __Activity__: Activity performed by volunteers in “Human Activity Recognition Using Smartphones Dataset. Version 1.0”  
 Levels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, STANDING
 
-1. __Mean_tBodyAcc-mean()-X__: Mean of feature “tBodyAcc-mean()-X in “Human Activity Recognition Using Smartphones Dataset. Version 1.0”  
+1. __Mean_tBodyAcc-mean()-X__: Mean of feature “tBodyAcc-mean()-X” in “Human Activity Recognition Using Smartphones Dataset. Version 1.0”  
 Range 0.22159824394 to 0.3014610196 
 
-1. __Mean_tBodyAcc-mean()-Y__: Mean of feature “tBodyAcc-mean()-Y in “Human Activity Recognition Using Smartphones Dataset. Version 1.0”  
+1. __Mean_tBodyAcc-mean()-Y__: Mean of feature “tBodyAcc-mean()-Y” in “Human Activity Recognition Using Smartphones Dataset. Version 1.0”  
 Range -0.0405139534294 to -0.00130828765170213
 
 1. __Mean_tBodyAcc-mean()-Z__: Mean of feature “tBodyAcc-mean()-Z” in “Human Activity Recognition Using Smartphones Dataset. Version 1.0”  
