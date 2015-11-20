@@ -7,20 +7,20 @@ date: "11/19/2015"
 ##Script Function
 
 
-###This script requires 7 files in the working directory obtained from the resource described below.
+###This script requires 7 files in the working directory,  obtained from the resource "Human Activity Recognition Using Smartphones Dataset Version 1.0" described below.
 
 
-* 'features.txt': List of all features.
+* 'features.txt': List of all features which are variable names.
 
-* 'X_train.txt': Training set.
+* 'X_train.txt': Training set Subject annotation.
 
-* 'y_train.txt': Training labels.
+* 'y_train.txt': Training Activity annotation labels.
 
 * 'subject_train.txt': Training data.
 
-* 'X_test.txt': Test set.
+* 'X_test.txt': Test set Subject annotation.
 
-* 'y_test.txt': Test labels.
+* 'y_test.txt': Test Activity annotation labels.
 
 * 'subject_test.txt': Test data.
 
